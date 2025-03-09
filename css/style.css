@@ -45,6 +45,11 @@ body {
 /* Start header  */
 .header {
     padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px var(--secondary-color) ;
 }
 .header .container {
     display: flex;
